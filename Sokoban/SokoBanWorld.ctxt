@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SokoBanWorld
+comment0.text=\r\n\ SokobanWorld,\ keeps\ track\ of\ the\ score.\ For\ each\ level\ there\ should\ be\ \r\n\ one\ subclass\ which\ determines\ the\ layout\ of\ the\ specific\ level.\r\n
+comment1.params=
+comment1.target=SokoBanWorld()
+comment1.text=\r\n\ Constructor,\ starts\ the\ first\ level\r\n
+comment2.params=width\ height\ cellSize
+comment2.target=SokoBanWorld(int,\ int,\ int)
+comment2.text=\r\n\ Constructor,\ should\ be\ called\ from\ subclass\r\n
+comment3.params=
+comment3.target=void\ endOfLevel()
+comment3.text=\r\n\ Check\ to\ see\ if\ all\ of\ the\ crates\ are\ on\ a\ targetspot.\r\n\ If\ so,\ go\ to\ next\ level,\ or\ stop\ the\ game.\r\n\ Should\ be\ implemented\ for\ each\ level\ (each\ subclass).\r\n
+numComments=4

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=BlockActor
+comment0.text=\r\n\ A\ BlockActor\ is\ a\ specific\ kind\ of\ Actor\:\r\n\ There\ can\ be\ only\ one\ BlockActor\ on\ a\ specific\ spot\ at\ the\ same\ time.\ \r\n\ So,\ a\ BlockActor\ cannot\ move\ to\ a\ spot\ where\ already\ another\ BlockActor\ resides\r\n
+comment1.params=direction
+comment1.target=void\ moveTo(int)
+comment1.text=\r\n\ Move\ the\ blockactor\ to\ the\ given\ direction,\ but\ only\r\n\ if\ there\ is\ no\ other\ blockactor\ in\ that\ direction.\r\n
+comment2.params=offsetX\ offsetY
+comment2.target=void\ moveTo(int,\ int)
+comment2.text=\r\n\ Private\ method\:\ move\ the\ blockactor\ to\ a\ new\ location,\r\n\ based\ on\ the\ offset\r\n
+comment3.params=offsetX\ offsetY
+comment3.target=boolean\ isFree(int,\ int)
+comment3.text=\r\n\ Private\ method\:\ check\ to\ see\ if\ the\ new\ location\ is\ free\r\n\ (there\ is\ no\ other\ blockactor\ at\ that\ location),\r\n\ based\ on\ the\ given\ offset\r\n
+comment4.params=direction
+comment4.target=Crate\ getLinkToCrate(int)
+comment4.text=\r\n\ Get\ an\ objectreference\ to\ the\ crate,\ relative\ to\ the\ current\ location\r\n\ If\ there\ is\ no\ crate,\ the\ return\ value\ will\ be\ null\r\n
+comment5.params=offsetX\ offsetY
+comment5.target=boolean\ canSeeCrate(int,\ int)
+comment5.text=\r\n\ Private\ method\:\ see\ if\ there\ is\ a\ crate\ at\ the\ given\ offset\r\n
+comment6.params=direction
+comment6.target=boolean\ canSeeCrate(int)
+comment6.text=\r\n\ Check\ to\ see\ if\ there\ is\ a\ crate\ in\ the\ given\ direction\r\n\ Return\ true\ if\ there\ is\ a\ crate\ in\ the\ given\ direction\r\n\ Return\ false\ if\ there\ is\ no\ crate\ in\ the\ given\ direction\r\n
+comment7.params=direction
+comment7.target=boolean\ isFree(int)
+comment7.text=\r\n\ Check\ to\ see\ if\ the\ location\ in\ the\ given\ direction\ is\ free\r\n\ (there\ is\ no\ blockactor)\r\n\ Return\ true\ if\ there\ is\ no\ blockactor\ in\ the\ given\ direction\r\n\ Return\ false\ if\ the\ location\ is\ already\ taken\r\n
+numComments=8

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CopyOfTargetSpot
+comment0.text=\r\n\ TargetSpot\:\ this\ is\ the\ place\ where\ a\ crate\ should\ go\ to\r\n
+comment1.params=
+comment1.target=boolean\ hasCrate()
+comment1.text=\r\n\ Check\ to\ see\ if\ there\ is\ a\ crate\ on\ this\ targetSpot\r\n
+numComments=2
