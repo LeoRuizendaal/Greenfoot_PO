@@ -148,14 +148,14 @@ public class Man extends BlockActor
    private void checkTouching(){
      List<PowerUp> PowerUps = getIntersectingObjects(PowerUp.class);
      List<Bee> Bees = getIntersectingObjects(Bee.class);
-     SokoBanWorld world = (SokoBanWorld) getWord();
-     if ((PowerUps.size > 0) && (!IsPowerUp)) {
+     SokoBanWorld world = (SokoBanWorld) getWorld();
+     if ((PowerUps.size() > 0) && (!IsPowerUp)) {
        PowerUp TPowerUp = PowerUps.get(0);
        world.removeObject(TPowerUp);
        IsPowerUp = true;
        PowerUpTimeout = 50;
      }
-     if (Bees.size > 0) {
+     if (Bees.size() > 0) {
        Bee TBee = Bees.get(0);
        if (IsPowerUp){
          world.removeObject(TBee);
